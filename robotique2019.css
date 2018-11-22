@@ -1,0 +1,40 @@
+p{
+  color: white;
+}
+body{
+  background-color: rgb(42,42,42);
+}
+#enFlag, #frFlag{
+    width: 100%;
+    border-radius: 50%;
+}
+#logo{
+  width: 5%;
+  float:left;
+  top: 1%;
+}
+#logoText{
+  float: left;
+}
+#enFrancais{
+  display: none;
+}
+#toEnglish{
+  display: block;
+}
+#toEnglish, #enFrancais{
+  float: right;
+  margin-right: 1%;
+  margin-top: 1%;
+  width: 5%;
+  background-color: rgb(42,42,42);
+  border-color: rgb(42,42,42);
+}
+#text{
+  text-align: center;
+}
+#textImage{
+  width: 25%;
+  margin-left: 22%;
+  margin-top: 5%;
+}
