@@ -1,5 +1,5 @@
-p{
-  color: white;
+p, #text{
+  color:  white;
 }
 body{
   background-color: rgb(42,42,42);
@@ -32,6 +32,8 @@ body{
 }
 #text{
   text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 #textImage{
   width: 25%;
