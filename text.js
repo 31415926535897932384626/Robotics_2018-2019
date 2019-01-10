@@ -7,12 +7,12 @@ var text = {
      Les valeurs de cette école sont le respect, la pers&eacutev&eacuterance, la responsabilit&eacute, l’intégrit&eacute et l’inclusion.</br>\
      Le site web de l’&eacutecole est ici: <a href='https://julesverne.csf.bc.ca'> Jules-Verne </a> </br>",
   "JVEnglish":"Jules-Vernes is a secondary French school in the heart of Vancouver, British-Columbia.</br>\
-   Found in the district of Cambie South, this magnificent school is named after the famous writer Jules Verne.</br>\
-   It is one of several that accepts the International Baccalaureate program.</br>\
-   We welcome students from all cultures, from 7th to 12th grade. Our school was built in 2009.</br>\
-   The school J-V has a mascot named the Albatross with colours of gray and gold.</br>\
-   The values of this school are Respect, Perseverance, Responsibility, Integrity and Inclusion.</br>\
-  The website is here : <a href='https://julesverne.csf.bc.ca'> Jules-Verne </a> </br>",
+    Found in the district of Cambie South, this magnificent school is named after the famous writer Jules Verne.</br>\
+    It is one of several that accepts the International Baccalaureate program.</br>\
+    We welcome students from all cultures, from 7th to 12th grade. Our school was built in 2009.</br>\
+    The school J-V has a mascot named the Albatross with colours of gray and gold.</br>\
+    The values of this school are Respect, Perseverance, Responsibility, Integrity and Inclusion.</br>\
+    The website is here : <a href='https://julesverne.csf.bc.ca'> Jules-Verne </a> </br>",
 
   "HomeEnglish":"Welcome to our site.",
   "HomeFrench":"Bienvenue sur notre site.",
@@ -27,6 +27,6 @@ var text = {
    Le niveau 1 est le niveau le plus bas (le plus facile) l et le niveau 5 est le plus élevé (le plus difficile).</br></br>\
    Les zones de départ disponibles sont situées au niveau 1, au niveau 3 et au niveau 5.</br>\
    Les distributeurs de pièces de jeu sont situés au niveau 1, au niveau 4 et au niveau 5.</br>\
-   Les cibles sont situées au niveau 2, au niveau 3 et au niveau 4.</br>"\
+   Les cibles sont situées au niveau 2, au niveau 3 et au niveau 4.</br>"
 
 }
