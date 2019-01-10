@@ -27,6 +27,6 @@ var text = {
    Le niveau 1 est le niveau le plus bas (le plus facile) l et le niveau 5 est le plus élevé (le plus difficile).</br></br>\
    Les zones de départ disponibles sont situées au niveau 1, au niveau 3 et au niveau 5.</br>\
    Les distributeurs de pièces de jeu sont situés au niveau 1, au niveau 4 et au niveau 5.</br>\
-   Les cibles sont situées au niveau 2, au niveau 3 et au niveau 4.</br>\
+   Les cibles sont situées au niveau 2, au niveau 3 et au niveau 4.</br>"\
 
 }
