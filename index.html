@@ -10,13 +10,27 @@
 		<link href="robotique2019.css" type= "text/css"rel="stylesheet">
     <script type="text/javascript" src="robot.js"></script>
     <script type="text/javascript" src="text.js"></script>
+    <script type="text/javascript">
+      function frenchFry(){
+        document.getElementById("text").innerHTML = text.HomeFrench;
+        document.getElementById("logoText").innerHTML = "Robotique Jules-Verne";
+        document.getElementById("toEnglish").style.display = "block";
+        document.getElementById("enFrancais").style.display = "none";
+      }
+      function anglicisme(){
+        document.getElementById("text").innerHTML = text.HomeEnglish;
+        document.getElementById("logoText").innerHTML = "Jules-Verne's Robotics";
+        document.getElementById("enFrancais").style.display = "block";
+        document.getElementById("toEnglish").style.display = "none";
+      }
+    </script>
   </head>
   <body>
     <img src="logo.png" alt="Your browser cannot display the Jules-Verne logo </br> Votre navigateur ne peut pas montrer le logo de Jules-Verne" id="logo">
     <p id="logoText">Robotique Jules-Verne</p>
     <button id="toEnglish" onclick="anglicisme()"><img src="engFlag.png" id="enFlag"></img></button>
     <button id="enFrancais" onclick="frenchFry()"><img src="freFlag.png" id="frFlag"></button>
-      <img src="pic.png" id="textImage"></img>
-    <p id="text">Welcome to our site</p>
+    <canvas id="Game" width="300" height="300"></canvas>
+    <h1 id="text" >Bienvenue sur notre site.</h1>
   </body>
 </html>

@@ -12,8 +12,12 @@ var text = {
    It is one of several that accepts the International Baccalaureate program.</br>\
    We welcome students from all cultures, from 7th to 12th grade. Our school was built in 2009.</br>\
    The school J-V has a mascot named the Albatross with colours of gray and gold.</br>\
-   The values ​​of this school are Respect, Perseverance, Responsibility, Integrity and Inclusion.</br>\
-  The website is here : <a href='https://julesverne.csf.bc.ca'> Jules-Verne </a> </br>",
+   The values of this school are Respect, Perseverance, Responsibility, Integrity and Inclusion.</br>\
+   The website is here : <a href='https://julesverne.csf.bc.ca'> Jules-Verne </a> </br>",
+
+  "HomeEnglish":"Welcome to our site.",
+  "HomeFrench":"Bienvenue sur notre site.",
+
 
   "JVregles":"Le jeu nécessite que les robots de différentes écoles marquent le plus de points en travaillant en équipe.</br>\
    Donner à chaque école une chance égale de démontrer sa conception, sa construction et ses compétences de jeu stratégiques.</br>\
@@ -25,8 +29,6 @@ var text = {
    Le niveau 1 est le niveau le plus bas (le plus facile) l et le niveau 5 est le plus élevé (le plus difficile).</br></br>\
    Les zones de départ disponibles sont situées au niveau 1, au niveau 3 et au niveau 5.</br>\
    Les distributeurs de pièces de jeu sont situés au niveau 1, au niveau 4 et au niveau 5.</br>\
-   Les cibles sont situées au niveau 2, au niveau 3 et au niveau 4.</br>\
-        "
-
+   Les cibles sont situées au niveau 2, au niveau 3 et au niveau 4.</br>\"
 
 }
