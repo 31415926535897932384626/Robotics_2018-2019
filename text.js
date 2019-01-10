@@ -9,5 +9,5 @@ var text = {
   "JVEnglish":"Blah biddy english crap....",
 
   "HomeEnglish":"Welcome to our site.",
-  "HomeFrench":"Bienvenue &agrave notre site.",
+  "HomeFrench":"Bienvenue sur notre site.",
 }
