@@ -1,3 +1,4 @@
+//https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript/Finishing_up
 var canvas = document.getElementById("game");
 var ctx = canvas.getContext("2d");
 var ballRadius = 10;
@@ -123,6 +124,7 @@ function drawLives() {
 }
 
 function draw() {
+  document.getElementById("drawButton").style.display = "none";
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   drawBricks();
   drawBall();
