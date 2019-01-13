@@ -8,7 +8,7 @@
 		<link rel="icon" type="image/x-icon" href="logo.ico" sizes="192x192">
 		<link rel="apple-touch-icon" sizes="180x180" href="logo-180x180.ico">
 		<link href="robotique2019.css" type= "text/css"rel="stylesheet">
-    <script type="text/javascript" src="robot.js"></script>
+
     <script type="text/javascript" src="text.js"></script>
     <script type="text/javascript">
       function frenchFry(){
@@ -30,8 +30,15 @@
     <p id="logoText">Robotique Jules-Verne</p>
     <button id="toEnglish" onclick="anglicisme()"><img src="engFlag.png" id="enFlag"></img></button>
     <button id="enFrancais" onclick="frenchFry()"><img src="freFlag.png" id="frFlag"></button>
-    <canvas id="Game" width="300" height="300"></canvas>
     <h1 id="text" >Bienvenue sur notre site.</h1>
-
+    <a href="DescriptionJV.html">  <img src="blackButton.png" id="topButton">  <!-- GET RID OF THE WHITE BACKGROUND ON THE BUTTON PNGs, AND ADD TEXT --> </a> <br>
+    <a href="EquipeJV.html">  <img src="yellowButton.png" id="bButton"> </a> <br>
+    <a href="index.html">  <img src="redButton.png" id="cButton"> </a> <br>
+    <a href="Robot.html">  <img src="orangeButton.png" id="dButton"> </a> <br>
+    <a href="Documentation.html">  <img src="whiteButton.png" id="eButton"> </a> <br>
+    <a href="Vertigoal.html">  <img src="greenButton.png" id="fButton"> </a> <br>
+    <a href="CRC.html">  <img src="blueButton.png" id="gButton"> </a> <br>
+    <canvas id="game" width="600" height="300" onclick="draw()"></canvas>
+    <script type="text/javascript" src="breakout.js"></script>
   </body>
 </html>
