@@ -16,12 +16,14 @@
         document.getElementById("logoText").innerHTML = "Robotique Jules-Verne";
         document.getElementById("toEnglish").style.display = "block";
         document.getElementById("enFrancais").style.display = "none";
+        document.getElementById("drawButton").innerHTML = "Cliquez ici pour jouer!";
       }
       function anglicisme(){
         document.getElementById("text").innerHTML = text.HomeEnglish;
         document.getElementById("logoText").innerHTML = "Jules-Verne's Robotics";
         document.getElementById("enFrancais").style.display = "block";
         document.getElementById("toEnglish").style.display = "none";
+        document.getElementById("drawButton").innerHTML = "Click here to play!";
       }
     </script>
   </head>
@@ -38,7 +40,8 @@
     <a href="Documentation.html">  <img src="whiteButton.png" id="eButton"> </a> <br>
     <a href="Vertigoal.html">  <img src="greenButton.png" id="fButton"> </a> <br>
     <a href="CRC.html">  <img src="blueButton.png" id="gButton"> </a> <br>
-    <canvas id="game" width="600" height="300" onclick="draw()"></canvas>
+    <canvas id="game" width="600" height="300"></canvas>
+    <button type="button" id="drawButton" onclick="draw()">Cliquez ici pour jouer!</button>
     <script type="text/javascript" src="breakout.js"></script>
   </body>
 </html>
