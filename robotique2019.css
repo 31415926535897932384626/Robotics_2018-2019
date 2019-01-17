@@ -18,21 +18,27 @@ canvas{
   border-style: solid;
   border-color: white;
 }
+.image{
+  position:relative;
+  left:25%;
+  width:25%;
+  height:40%;
+}
 #drawButton{
   position: fixed;
   left: 47.5%;
   top: 50%;
-  font-size: 24px;
 }
 #topButton, #bButton, #cButton, #dButton, #eButton, #fButton, #gButton{
   position: fixed;
   width: 5%;
   height: 10%;
   margin-top: 5%;
+  right:94.4%;
 }
 #topButton{
   top: 7.5%;
-  right:94.4%;
+
 }
 #bButton{
   top: 17.5%;
@@ -83,10 +89,9 @@ canvas{
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
-  font-size: 24px;
 }
 #textImage{
-  width: 50%;
-  margin-left: 10%;
+  width: 25%;
+  margin-left: 22%;
   margin-top: 5%;
 }
