@@ -18,10 +18,15 @@ canvas{
   border-style: solid;
   border-color: white;
 }
+#drawButton{
+  position: fixed;
+  left: 47.5%;
+  top: 50%;
+}
 #topButton, #bButton, #cButton, #dButton, #eButton, #fButton, #gButton{
   position: fixed;
   width: 5%;
-  height: 7%;
+  height: 10%;
   margin-top: 5%;
 }
 #topButton{
@@ -79,7 +84,7 @@ canvas{
   margin-right: 10%;
 }
 #textImage{
-  width: 30%;
+  width: 25%;
   margin-left: 22%;
   margin-top: 5%;
 }
