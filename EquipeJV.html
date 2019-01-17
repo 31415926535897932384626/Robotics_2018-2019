@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="auto">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>&Eacutecole Jules-Verne</title>
+    <link rel="shortcut icon" href="logo.ico">
+		<link rel="icon" type="image/x-icon" href="logo.ico" sizes="192x192">
+		<link rel="apple-touch-icon" sizes="180x180" href="logo-180x180.ico">
+		<link href="robotique2019.css" type= "text/css"rel="stylesheet">
+    <script type="text/javascript" src="text.js"></script>
+    <script type="text/javascript">
+    function anglicisme(){
+      // document.getElementById("text").innerHTML = text.JVEnglish;
+      document.getElementById("logoText").innerHTML = "Jules-Verne's Robotics";
+      document.getElementById("enFrancais").style.display = "block";
+      document.getElementById("toEnglish").style.display = "none";
+    }
+    function frenchFry(){
+      // document.getElementById("text").innerHTML = text.JVFrench;
+      document.getElementById("logoText").innerHTML = "Robotique Jules-Verne";
+      document.getElementById("toEnglish").style.display = "block";
+      document.getElementById("enFrancais").style.display = "none";
+    }
+    </script>
+  </head>
+  <body>
+    <img src="logo.png" alt="Your browser cannot display the Jules-Verne logo </br> Votre navigateur ne peut pas montrer le logo de Jules-Verne" id="logo">
+    <p id="logoText">Robotique Jules-Verne</p>
+    <button id="toEnglish" onclick="anglicisme()"><img src="engFlag.png" id="enFlag"></img></button>
+    <button id="enFrancais" onclick="frenchFry()"><img src="freFlag.png" id="frFlag"></button>
+    <a href="#"><img src="kiosque-mario.png" class="image"></a>
+    <a href="#"><img src="vid-luigi.png" class="image"></a>
+    <a href="#"><img src="site-pacman.png" class="image"></a>
+    <br>
+    <a href="#"><img src="robot-yoshi.png" class="image"></a>
+    <a href="#"><img src="codeComp-millipede.png" class="image"></a>
+    <a href="#"><img src="jackass-ralph" class="image"></a>
+    <a href="index.html">  <img src="blackButton.png" id="topButton"></a> <br>
+    <a href="DescriptionJV.html">  <img src="redButton.png" id="bButton"> </a> <br>
+    <a href="Robot.html">  <img src="orangeButton.png" id="cButton"> </a> <br>
+    <a href="EquipeJV.html">  <img src="yellowButton.png" id="dButton"> </a> <br>
+    <a href="Vertigoal.html">  <img src="greenButton.png" id="eButton"> </a> <br>
+    <a href="CRC.html">  <img src="blueButton.png" id="fButton"> </a> <br>
+    <a href="Documentation.html">  <img src="whiteButton.png" id="gButton"> </a> <br>
+  </body>
+</html>
