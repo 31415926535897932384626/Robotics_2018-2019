@@ -1,6 +1,11 @@
-
+h1{
+  position: fixed;
+  top: 10%;
+  left:12.5%;
+  font-family: 'Press Start 2P';
+}
 body{
-  background-color: rgb(42,42,42);
+  background-color: rgb(22,22,22);
 }
 a{
   color: rgb(50,50,255);
@@ -10,51 +15,62 @@ a:visited {
 }
 p, #text{
   color:  white;
+  font-family: 'Press Start 2P';
 }
 canvas{
   position: fixed;
-  top:30%;
+  top:25%;
   left:30%;
   border-style: solid;
-  border-color: white;
+  border-color: rgb(22,22,22);
 }
-#drawButton{
+iframe{
+ position:fixed;
+ width: 55%;
+ height: 60%;
+ top: 11.5%;
+ left: 22.5%;
+}
+
+#joystickButtonA, #joystickButtonB, #redButtonA, #redButtonB, #blackButtonA, #blackButtonB,#blueButtonA, #blueButtonB{
   position: fixed;
-  left: 47.5%;
-  top: 50%;
-  font-size: 24px;
+  width: 10%;
 }
-#topButton, #bButton, #cButton, #dButton, #eButton, #fButton, #gButton{
-  position: fixed;
-  width: 5%;
-  height: 10%;
-  margin-top: 5%;
+#joystickButtonA{
+  top: 70%;
+  left: 6%;
 }
-#topButton{
-  top: 7.5%;
-  right:94.4%;
+#joystickButtonB{
+  top: 70%;
+  right: 6%;
 }
-#bButton{
-  top: 17.5%;
+#redButtonA{
+  top: 80%;
+  left:15%;
 }
-#cButton{
-  top: 27.5%;
+#redButtonB{
+  top: 80%;
+  right:15%;
 }
-#dButton{
-  top: 37.5%;
+#blackButtonA{
+  top: 72.5%;
+  left: 25%;
 }
-#eButton{
-  top: 47.5%;
+#blackButtonB{
+  top: 72.5%;
+  right:25%;
 }
-#fButton{
-  top: 57.5%;
+#blueButtonA{
+  top: 72.5%;
+  left: 30%;
 }
-#gButton{
-  top: 67.5%;
+#blueButtonB{
+  top: 72.5%;
+  right:20%;
 }
 #enFlag, #frFlag{
     width: 100%;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 #logo{
   width: 5%;
@@ -64,6 +80,8 @@ canvas{
 #logoText{
   float: left;
   margin-top: 2%;
+  margin-left: 2%;
+  font-family: 'Press Start 2P';
 }
 #enFrancais{
   display: none;
@@ -76,17 +94,22 @@ canvas{
   margin-right: 1%;
   margin-top: 1%;
   width: 5%;
-  background-color: rgb(42,42,42);
-  border-color: rgb(42,42,42);
+  background-color: rgb(22,22,22);
+  border-color: rgb(22,22,22);
 }
 #text{
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
-  font-size: 24px;
 }
 #textImage{
-  width: 50%;
-  margin-left: 10%;
+  width: 25%;
+  margin-left: 22%;
   margin-top: 5%;
+}
+#drawButton{
+  position: fixed;
+  top:45%;
+  left:40%;
+  font-family: 'Press Start 2P', cursive;
 }
