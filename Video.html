@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="auto">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vid&eacuteo de Jules-Verne</title>
+    <link rel="shortcut icon" href="logo.ico">
+		<link rel="icon" type="image/x-icon" href="logo.ico" sizes="192x192">
+		<link rel="apple-touch-icon" sizes="180x180" href="logo-180x180.ico">
+		<link href="robotique2019.css" type= "text/css"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <script type="text/javascript" src="text.js"></script>
+    <script type="text/javascript">
+      function frenchFry(){
+        document.getElementById("logoText").innerHTML = "Robotique Jules-Verne";
+        document.getElementById("toEnglish").style.display = "block";
+        document.getElementById("enFrancais").style.display = "none";
+      }
+      function anglicisme(){
+        document.getElementById("logoText").innerHTML = "Jules-Verne Robotics";
+        document.getElementById("enFrancais").style.display = "block";
+        document.getElementById("toEnglish").style.display = "none";
+      }
+    </script>
+  </head>
+  <body>
+    <div class="topBit">
+      <a href="https://www.instagram.com/clubrobotique/">  <img src="logo.png" id="logo"></a>
+      <p id="logoText">Robotique Jules-Verne</p>
+      <button id="toEnglish" onclick="anglicisme()"><img src="engFlag.png" id="enFlag"></img></button>
+      <button id="enFrancais" onclick="frenchFry()"><img src="freFlag.png" id="frFlag"></button>
+    </div>
+    <a href="index.html">  <img src="redButtonA.png" id="redButtonA"> </a> <br>
+    <a href="Video.html"> <img src="joystickB.png" id="joystickButtonB"> </a> <br>
+    <a href="DescriptionJV.html">  <img src="blueButtonA.png" id="blueButtonA"> </a> <br>
+    <a href="Robot.html">  <img src="redButtonB.png" id="redButtonB"> </a> <br>
+    <a href="EquipeJV.html">  <img src="blackButtonA.png" id="blackButtonA"> </a> <br>
+    <a href="Vertigoal.html">  <img src="blueButtonB.png" id="blueButtonB"> </a> <br>
+    <a href="CRC.html">  <img src="joystickA.png" id="joystickButtonA"> </a> <br>
+    <a href="Documentation.html">  <img src="blackButtonB.png" id="blackButtonB"> </a> <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YANXJ3ABIZk"
+      frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </body>
+</html>
